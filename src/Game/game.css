@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #FFFFF0;
+
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap:30px; */
+}
+
+.grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    width: fit-content;
+    border: 0px solid #822E1E;
+    height: fit-content;
+    background-color: #822E1E;
+    border-radius: 10px;
+    gap: 4px;
+    box-shadow: 0 0 10px inset black;
+    padding: 10px;
+}
+.tiles {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    margin: 0;
+    font-size: 90px;
+    font-weight: bolder;
+    background-color: #D2B48C;
+    color: #822E1E;
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 2px black;
+}
+button.hover{
+    color:#D2B48C;
+}
+h4 {
+    display: inline-block;
+}
+
+.grid_buttons_container {
+    display: flex;
+    justify-content: center;
+}
+
+.button_div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.button_div button {
+    padding: 10px 5px;
+    border: 2px solid #822E1E;
+    background-color: white;
+    border-radius: 7px;
+    width: 100px;
+    background-color: #D2B48C;
+    box-shadow: 2px 2px 4px black, -1px -1px 2px #606060;
+    color: #822E1E;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    font-size: small;
+
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #822E1E;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    /* text-shadow: 0px 0px 5px black; */
+    box-shadow: 3px 3px 5px black, -2px -2px 6px #606060;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #D2B48C;
+    border: 5px solid #822E1E;
+}
+h2 {
+    display: none;
+    position: absolute;
+    top: 105px;
+    left: 76px;
+    padding: 20px;
+    background-color: #D2B48C;
+    opacity: 90%;
+    border: 2px solid #822E1E;
+    border-radius: 10px;
+    color: #822E1E;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+.outer_grid {
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 3px 3px 5px black, -2px -2px 6px #606060;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: #822E1E;
+    padding: 10px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
